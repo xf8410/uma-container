@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">uma-container</string>
+    <string name="poc_status">PoC 前期：工程骨架。容器引擎开发中，游戏尚未在容器内运行。</string>
+</resources>
