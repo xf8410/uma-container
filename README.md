@@ -1,3 +1,56 @@
+<div align="center">
+
+# 🐎 uma-container
+
+**容器化运行研究（M0-M8 路线图）**
+
+![仓库](https://img.shields.io/badge/仓库-xf8410-8B5CF6?style=flat-square) ![分支](https://img.shields.io/badge/分支-1-10B981?style=flat-square) ![版本](https://img.shields.io/badge/版本-0-F59E0B?style=flat-square) ![CI](https://img.shields.io/badge/CI-1-3B82F6?style=flat-square)
+
+</div>
+
+---
+> 📌 **一句话定位**：容器化运行研究（M0-M8 路线图）
+
+## 🧭 项目定位
+
+把赛马娘 APK 装进容器（VA Space）、嵌进 umawork 同屏运行的研究仓。参考 BlackBox/VA 原理自行重写（上游停更无 license，不抄源码），路线 PoC→反作弊实测→A14/15 适配→hlpatch 容器内加载→umawork 集成。已按项目决定暂停推进（方向调整），仓库保留为研究档案。
+
+## ✨ 核心功能
+- VA 容器原理重写方案- M0-M8 里程碑路线图- 反作弊与适配风险前置声明
+
+## 🌿 分支导览（共 1 个分支全览）
+
+<details open>
+<summary><b>点击收起/展开全部分支用途说明</b></summary>
+
+| 分支 | 用途说明 |
+|---|---|
+| `main` | 主干：架构计划书与研究记录 |
+
+</details>
+
+## 🏷️ 版本历史
+
+无 release。
+
+完整版本列表 ➡️ [Releases 页](../../releases)
+
+## ⚙️ CI 流水线（共 1 条）
+
+| 流水线 | 用途说明 |
+|---|---|
+| build | 文档构建流水线 |
+
+
+---
+
+## 📜 历史介绍存档
+
+> 以下为仓库原有介绍，**内容未删改**，仅移入存档区（新版介绍以本页上方为准）。
+
+<details>
+<summary><b>点击展开原 README</b></summary>
+
 # uma-container
 
 **把日服《赛马娘 pretty derby》容器化，嵌进宿主 App 内部运行的实验项目。**
@@ -64,3 +117,6 @@ GitHub Actions：push 即编译（`gradle assembleDebug`），所有分支保持
 
 ---
 **当前状态**：🔴 PoC 前期——工程骨架搭建中，游戏尚未在容器内运行。
+
+
+</details>
